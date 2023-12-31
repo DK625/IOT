@@ -1,0 +1,21 @@
+/* LimitInputPage.scss */
+
+.limit-input-page {
+    opacity: 0;
+    /* Đặt opacity ban đầu thành 0 để ẩn component */
+    animation: fadeIn 0.5s ease-in-out forwards;
+    /* Sử dụng animation để thêm hiệu ứng fade-in */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+        /* Tùy chỉnh theo ý muốn, ví dụ: dịch lên trên */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,80 @@
+/* eslint-disable */
+/* Profile.scss */
+
+// Định nghĩa biến cho màu chính và màu nền
+$primary-color: #007bff;
+$background-color: #f8f9fa;
+
+// Định nghĩa kiểu chữ và màu sắc cho tiêu đề
+$heading-font: 'Arial', sans-serif;
+$heading-color: #333;
+$heading-font-size: 24px;
+
+// Định nghĩa kiểu chữ cho nội dung
+$content-font: 'Roboto', sans-serif;
+$content-color: #666;
+$content-font-size: 16px;
+
+// Định nghĩa kiểu chữ và màu sắc cho danh sách kỹ năng
+$skill-font: 'Arial', sans-serif;
+$skill-color: #555;
+$skill-font-size: 18px;
+
+// Tùy chỉnh giao diện profile
+.profile {
+    background-color: $background-color;
+    padding: 20px;
+
+    .profile-header {
+        text-align: center;
+
+        .avatar {
+            border-radius: 50%;
+            border: 5px solid $primary-color;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .profile-title {
+            font-family: $heading-font;
+            color: $heading-color;
+            font-size: $heading-font-size;
+            margin-top: 10px;
+        }
+
+        .profile-subtitle {
+            font-family: $content-font;
+            color: $content-color;
+        }
+    }
+
+    .profile-content {
+        font-family: $content-font;
+        color: $content-color;
+
+        h2 {
+            font-family: $heading-font;
+            color: $heading-color;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        .skill-list {
+            list-style-type: none;
+            padding-left: 0;
+
+            li {
+                font-family: $skill-font;
+                color: $skill-color;
+                font-size: $skill-font-size;
+                margin-top: 5px;
+            }
+        }
+    }
+}

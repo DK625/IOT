@@ -1,0 +1,59 @@
+.warning-border {
+    // border: 2px solid red;
+    /* Màu viền đỏ */
+    animation: blinker 3s linear infinite;
+    /* Hiệu ứng nhấp nháy */
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+// .warning-border {
+//     position: relative;
+//     /* Đặt vị trí của phần tử cha để chứa pseudo-element */
+// }
+
+// .warning-border::after {
+//     content: '';
+//     /* Tạo một pseudo-element trống */
+//     position: absolute;
+//     /* Đặt vị trí tuyệt đối cho pseudo-element */
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     border: 8px solid red;
+//     /* Màu viền đỏ */
+//     animation: blinker 2s linear infinite;
+//     /* Hiệu ứng nhấp nháy */
+// }
+
+// @keyframes blinker {
+//     50% {
+//         opacity: 0;
+//     }
+// }
+
+// .warning-background {
+//     position: relative;
+//     /* Đặt vị trí của phần tử cha để chứa pseudo-element */
+// }
+
+// .warning-background::after {
+//     content: '';
+//     /* Tạo một pseudo-element trống */
+//     position: absolute;
+//     /* Đặt vị trí tuyệt đối cho pseudo-element */
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     background-color: red;
+//     /* Màu nền đỏ */
+//     opacity: 0.5;
+//     /* Độ trong suốt của màu nền */
+// }

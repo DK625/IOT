@@ -1,0 +1,22 @@
+/* PortInputPage.scss */
+
+/* Định dạng chung cho trang nhập số cổng */
+.port-input-page {
+    animation: fadeIn 0.5s;
+    /* Thêm hiệu ứng xuất hiện */
+    max-width: 400px;
+    /* Độ rộng tối đa của phần nội dung */
+    margin: 0 auto;
+    /* Căn giữa theo chiều ngang */
+}
+
+/* Hiệu ứng fadeIn */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

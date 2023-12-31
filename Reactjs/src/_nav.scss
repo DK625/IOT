@@ -1,0 +1,10 @@
+.centered-nav-item {
+    display: flex;
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+}
+
+.centered-nav-item .nav-icon {
+    margin-right: 5px;
+    /* Khoảng cách giữa biểu tượng và văn bản */
+}
